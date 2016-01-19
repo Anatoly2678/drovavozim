@@ -1,0 +1,25 @@
+AddDefaultCharset utf-8
+DirectoryIndex main.php
+
+#RewriteEngine on
+
+#RewriteRule ^RentList$    /Public/RentList.php [L]
+#RewriteRule ^UserExit$    Public/Module/exit.php [L]
+#RewriteRule ^Public/Filter$    Public/Filter.php [L]
+##RewriteRule ^$    /Public/login.php [L]
+
+##RewriteRule ^RentList.php$    /Public/RentList.php [L]
+##http://agency/RentList.php
+##RewriteRule ^(.*)/index\.(php|html|htm)$ http://domain.com/$1/ [R=301,L]
+##Redirect 301 /index.html http://www.site.ru/new.php
+##RewriteRule ^dir /dir-new/$1 [R=301,L]
+##RewriteRule ^login.php$ / [R=301,nc]
+##RewriteRule ^login.css$ / [R=301,nc]
+##RewriteRule ^login.js$ / [R=301,nc]
+
+
+#RewriteRule ^search_rent.php$ /Public/search_rent.php [L]
+#RewriteRule ^urlIMG.php$ /Public/urlIMG.php [L]
+####RewriteRule ^RentList.php$ /RentList [R=301,nc]
+#RewriteRule ^Module/exit.php$ /UserExit [R=301,nc]
+

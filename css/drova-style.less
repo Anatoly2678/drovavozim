@@ -1,0 +1,146 @@
+/*Огромные устройства*/
+@media screen and (min-width: 1500px) {
+.drova-header .drova-img-logo { transform: scale(1); }
+}
+/*Большие устройства*/
+@media screen and (min-width: 1170px) and (max-width: 1499px) {
+.drova-header .drova-img-logo { transform: scale(0.8);}
+}
+/*Средние устройства*/
+@media screen and (min-width: 970px) and (max-width: 1169px) {
+.drova-header .drova-img-logo { transform: scale(0.7);}
+}
+/*Планшеты*/
+@media screen and (min-width: 750px) and (max-width: 969px) {
+.drova-header .drova-img-logo { transform: scale(0.5); }
+}
+/*Телефоны*/
+@media screen and (min-width: 300px) and (max-width: 749px) {
+.drova-header .drova-img-logo { transform: scale(0.3);}
+}
+
+
+
+
+@text: 100%;
+@text2: 100%;
+@logowidth: 10%;
+
+body, html, * {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family: Caviar Dreams, Arial, sans-serif;
+	/*background:url(../image/body.jpg) no-repeat top center fixed;*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+@media screen and (min-width: 1000px) {
+    .connect p {
+        font-size: 28px;
+    }
+}
+@media screen and (min-width: 700px) and (max-width: 999px) {
+    .connect p {
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 699px) {
+    .connect p {
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 599px) {
+    .connect p {
+        font-size: 21px;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 499px) {
+    .connect p {
+        font-size: 14px;
+    }
+}
+
+/*DROVA*/
+.drova-header {
+	/*border: 1px solid;*/
+	height: 200px;
+    width: 70%;
+    margin: auto;
+    position: relative;
+}
+.drova-header .drova-img-layer {
+    max-width: 100%;
+    opacity: 0.3;
+    max-height: 100%;
+}
+.drova-header .drova-img-logo {
+	position: absolute;
+	width: logowidth;
+	height: logowidth;
+	left: 0%;
+	top: 0%;
+    background: transparent;
+}
+.drova-header .drova-header-text {
+	position: absolute;
+    right: 0px;
+    top: 0px;
+    background: transparent;
+    text-align: right;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-top: 5px;
+    font-size: 200%;
+}
+
+
+.drova-header .drova-header-text2 {
+    position: absolute;
+    width: auto;
+    height: quto;
+    height: auto;
+    right: 10px;
+    bottom: 5px;
+    background: transparent;
+    font-weight: bold;
+    font-size: 270%;
+}
+.drova-header .drova-zakaz {
+    position: absolute;
+    right: 0px;
+    background: transparent;
+    width: auto;
+    margin-right: 10px;
+    bottom: 65px;
+    height: auto;
+    border: 2px solid;
+    border-radius: 8px;
+    padding: 10px;
+    color: black;
+    background-color: white;
+}
+
+.drova-header .drova-zakaz:hover {
+	color: white;
+    background-color: black;
+    cursor: pointer;	
+}
+/*.layer1 {
+position: absolute;
+width: 100%;
+height: 100%;
+background: transparent url('../image/kora1.jpg') center center no-repeat;
+}
+*/
